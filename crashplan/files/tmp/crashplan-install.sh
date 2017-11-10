@@ -10,8 +10,10 @@ RUNLVLDIR=/etc/rc2.d
 
 # Downloading Crashplan
 mkdir /tmp/crashplan
-curl -L http://download.code42.com/installs/linux/install/CrashPlan/CrashPlan_${CP_VERSION}_Linux.tgz | tar -xz --strip=1 -C /tmp/crashplan
+curl -L https://web-eam-msp.crashplanpro.com/client/installers/CrashPlanPRO_4.9.0_1436674888490_33_Linux.tgz | tar -xz --strip=1 -C /tmp/crashplan
+# curl -L http://download.code42.com/installs/linux/install/CrashPlan/CrashPlan_${CP_VERSION}_Linux.tgz | tar -xz --strip=1 -C /tmp/crashplan
 # curl -L http://192.168.0.100:88/CrashPlan_${CP_VERSION}_Linux.tgz | tar -xz --strip=1 -C /tmp/crashplan
+# https://web-eam-msp.crashplanpro.com/client/installers/CrashPlanPRO_4.9.0_1436674888490_33_Linux.tgz
 
 cd /tmp/crashplan
 
